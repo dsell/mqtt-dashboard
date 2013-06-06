@@ -1,0 +1,7 @@
+This is a Tkinter application to monitor a MQTT broker parameters.
+
+This project is no longer being maintained.  There are threading issues that have not been addressed.  It has been replaced by mdash in the mqtt-util project.
+
+--
+Dennis
+
