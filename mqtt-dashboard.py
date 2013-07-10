@@ -274,7 +274,7 @@ def disconnect():
 
 class MyDaemon(Daemon):
     def run(self):
-        self.mqttcore = MyMQTTClientCore(APPNAME, clienttype="type3")
+        self.mqttcore = MyMQTTClientCore(APPNAME, clienttype="app")
         if(len(sys.argv) > 1):
             self.mqttcore.mqtthost = sys.argv[1]
             self.mqttcore.host_text.delete(1.0, END)
